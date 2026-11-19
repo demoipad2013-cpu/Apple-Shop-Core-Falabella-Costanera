@@ -13,7 +13,7 @@ Dashboard de la Apple Shop de Falabella Costanera (FY27): Resumen, Metas, Share 
 - **Cargar Excel** (Apple Cascade) funciona igual: ventas ST Rptd / ST Rptd $ e inventario por PPN.
 - **Guardar** guarda los cambios en el navegador que estás usando (localStorage). Para compartir datos entre equipos, usa **Cargar Excel → Descargar respaldo** y vuelve a subirlo.
 - **PDF** se descarga directo desde el navegador.
-- **Insights de ofertas con Claude** (Promociones) solo funciona al abrir el dashboard dentro de Claude; en GitHub se ven los análisis ya guardados.
+- **Insights de ofertas (Promociones)**: dentro de Claude funciona directo. En GitHub / app en el inicio del iPhone toca *Configurar clave API* y pega una clave de console.anthropic.com (se guarda solo en ese dispositivo; el uso se cobra en esa cuenta).
 - Las librerías (GSAP, SheetJS, html2canvas, jsPDF) se cargan desde cdnjs, por lo que necesita internet.
 
 ## Carpeta `fuente`
